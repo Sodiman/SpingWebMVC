@@ -1,0 +1,103 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 16, 2018, 5:30:00 PM
+    Author     : Ody
+*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 90%;
+    text-align: center;
+    margin: 20px auto;
+    background: lightsteelblue;
+}
+
+#main { background: #eee }
+
+#header {
+    height: 100px;
+    background: mediumseagreen;
+}
+
+#logo {
+    height: 155px;
+    width: 155px;
+    float: left;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+#logoText {
+    float: left;
+    margin: 20px 0 0 70px;
+    /* font styles apply to text within alt tags */
+    font-family: 'American Typewriter', Courier, monospace;
+    font-size: 50px;
+    color: #333;
+}
+
+#widgetBar {
+    height: 60px;
+    width: 100%;
+    float: right;
+    background: #ccc;
+}
+
+.headerWidget {
+    width: 194px;
+    margin: 20px 2px;
+    font-size: small;
+    float: right;
+    line-height: 25px;
+    background: #aaa;
+}
+
+#footer {
+    height: 60px;
+    width: 25%;
+    clear: left;
+    background: #aaa;
+}
+
+hr {
+    border: 0;
+    background-color: #333;
+    height: 1px;
+    margin: 0 25px;
+    width: 79%;
+}
+
+#indexLeftColumn {
+    height: 400px;
+    width: 25%;
+    float: left;
+    background: #ccc;
+}
+
+#indexRightColumn {
+    height: 400px;
+    width: 75%;
+    float: left;
+    background: #f1f1f1;
+}
+table.log {
+    height: 150px;
+    width: 250px;
+    padding: 5px;
+    background-color: gainsboro;
+    margin-left: auto;
+    margin-right: auto;
+}
+table.db {
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+thead.db {
+    background-color: gainsboro;
+    font-family: serif;
+}
