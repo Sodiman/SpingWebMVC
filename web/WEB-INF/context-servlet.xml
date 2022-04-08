@@ -28,23 +28,24 @@
     <bean id="template" class="org.springframework.jdbc.core.JdbcTemplate">  
         <property name="dataSource" ref="datasource"/>  
     </bean> 
-    
+	
 <!--    Menggunakan database Ms access-->
 <!--    <bean id="datasource"
           class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="net.ucanaccess.jdbc.UcanaccessDriver"/>
         <property name="url" value="jdbc:ucanaccess://C:/Users/Ody/Documents/Administrator.accdb"/>
-        <property name="username" value="root"/>
-        <property name="password" value="gundul24"/>
+        <property name="username" value="username"/>
+        <property name="password" value="*****"/>
     </bean>-->
     
 <!--    Menggunakan database mysql  -->
+    
     <bean id="datasource"
           class="org.springframework.jdbc.datasource.DriverManagerDataSource">
         <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
         <property name="url" value="jdbc:mysql://localhost:3306/administrator"/>
-        <property name="username" value="root"/>
-        <property name="password" value="gundul24"/>
+        <property name="username" value="username"/>
+        <property name="password" value="*****"/>
     </bean>     
     
 </beans>
